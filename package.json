@@ -16,11 +16,6 @@
     "lint": "tsdx lint"
   },
   "peerDependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
@@ -29,7 +24,6 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
-    "husky": "^3.0.9",
     "tsdx": "^0.10.5",
     "tslib": "^1.10.0",
     "typescript": "^3.6.4"
