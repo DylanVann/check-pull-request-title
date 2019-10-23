@@ -4,3 +4,4 @@
 .rts2_cache_esm
 .rts2_cache_umd
 .rts2_cache_system
+node_modules
