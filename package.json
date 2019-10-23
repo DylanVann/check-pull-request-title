@@ -24,11 +24,13 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
+    "builtin-modules": "^3.1.0",
     "tsdx": "^0.10.5",
     "tslib": "^1.10.0",
     "typescript": "^3.6.4"
   },
   "dependencies": {
-    "@actions/core": "^1.2.0"
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0"
   }
 }
