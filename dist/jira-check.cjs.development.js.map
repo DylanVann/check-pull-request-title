@@ -1,0 +1,1 @@
+{"version":3,"file":"jira-check.cjs.development.js","sources":["../src/index.ts"],"sourcesContent":["import * as core from '@actions/core';\n\ncore.setFailed('It did not work.');\n"],"names":["core"],"mappings":";;;;AAEAA,cAAA,CAAe,kBAAf"}
