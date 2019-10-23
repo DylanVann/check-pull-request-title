@@ -1,0 +1,5 @@
+name: Jira Check
+description: Check that pull request titles contain a Jira issue.
+runs:
+  using: node12
+  main: dist/index.js
