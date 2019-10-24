@@ -1,5 +1,5 @@
 {
-  "name": "pull-request-title-check",
+  "name": "check-pull-request-title",
   "version": "0.1.9",
   "license": "MIT",
   "author": "Dylan Vann",
