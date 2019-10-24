@@ -5,7 +5,7 @@ A GitHub action that checks that a PR title matches a regex patter.
 Could be used for:
 
 - Enforcing any commit convention.
-- Enforcing including a Jira ticket rererence in the title.
+- Enforcing including a Jira ticket reference in the title.
 - Enforcing using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 This is intended to be used with the [Autosquash](https://github.com/tibdex/autosquash) action so that squashed commit messages follow a convention.
