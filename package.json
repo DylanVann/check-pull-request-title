@@ -1,20 +1,19 @@
 {
   "name": "check-pull-request-title",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "license": "MIT",
   "author": "Dylan Vann",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
+    "build": "ncc build src/index.ts",
+    "lint": "tsdx lint",
     "start": "tsdx watch --format cjs --target node",
-    "build": "tsdx build --format cjs --target node",
-    "test": "tsdx test",
-    "lint": "tsdx lint"
+    "test": "tsdx test"
   },
-  "peerDependencies": {},
   "prettier": {
     "printWidth": 80,
     "semi": false,
@@ -22,13 +21,12 @@
     "trailingComma": "all"
   },
   "devDependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0",
     "@types/jest": "^24.0.19",
+    "@zeit/ncc": "^0.20.5",
     "tsdx": "^0.10.5",
     "tslib": "^1.10.0",
     "typescript": "^3.6.4"
-  },
-  "dependencies": {
-    "@actions/core": "^1.2.0",
-    "@actions/github": "^1.1.0"
   }
 }
