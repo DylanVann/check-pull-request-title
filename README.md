@@ -1,4 +1,4 @@
-# Jira Check
+# Pull Request Title Check
 
 A GitHub action that checks that a PR title contains a Jira issue reference.
 
