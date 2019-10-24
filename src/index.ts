@@ -12,7 +12,7 @@ function run() {
   const isValid = regex.test(title)
   if (!isValid) {
     core.setFailed(
-      `Pull request title "${title}" does not match pattern ${pattern}.`,
+      `Pull request title "${title}" does not match regex pattern "${pattern}".`,
     )
   }
 }
