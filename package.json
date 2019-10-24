@@ -1,26 +1,25 @@
 {
-  "name": "jira-check",
+  "name": "pull-request-title-check",
   "version": "0.1.0",
   "license": "MIT",
   "author": "Dylan Vann",
   "main": "dist/index.js",
-  "module": "dist/jira-check.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
+    "start": "tsdx watch --format cjs --target node",
+    "build": "tsdx build --format cjs --target node",
     "test": "tsdx test",
     "lint": "tsdx lint"
   },
   "peerDependencies": {},
   "prettier": {
     "printWidth": 80,
-    "semi": true,
+    "semi": false,
     "singleQuote": true,
-    "trailingComma": "es5"
+    "trailingComma": "all"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
