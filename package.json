@@ -11,7 +11,7 @@
   "scripts": {
     "build": "ncc build src/index.ts",
     "lint": "tsdx lint",
-    "start": "tsdx watch --format cjs --target node",
+    "start": "ncc build src/index.ts --watch",
     "test": "tsdx test"
   },
   "prettier": {
