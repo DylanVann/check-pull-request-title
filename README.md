@@ -1,5 +1,7 @@
 # Check Pull Request Title
 
+![Version](https://img.shields.io/github/v/release/dylanvann/check-pull-request-title?style=flat-square)
+
 A GitHub action that checks that a PR title matches a regex patter.
 
 Could be used for:
