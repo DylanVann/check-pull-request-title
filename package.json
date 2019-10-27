@@ -1,6 +1,6 @@
 {
   "name": "check-pull-request-title",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "license": "MIT",
   "author": "Dylan Vann <dylan@dylanvann.com> (https://dylanvann.com)",
   "files": [
@@ -10,7 +10,7 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "ncc build src/index.ts",
+    "build": "ncc build src/index.ts --minify --v8-cache",
     "lint": "tsdx lint",
     "start": "ncc build src/index.ts --watch",
     "test": "tsdx test"
