@@ -1,9 +1,10 @@
 {
   "name": "check-pull-request-title",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "license": "MIT",
-  "author": "Dylan Vann",
+  "author": "Dylan Vann <dylan@dylanvann.com> (https://dylanvann.com)",
   "files": [
+    "action.yml",
     "dist"
   ],
   "main": "dist/index.js",
