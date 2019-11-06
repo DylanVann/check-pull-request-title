@@ -1,18 +1,17 @@
 {
   "name": "check-pull-request-title",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "license": "MIT",
   "author": "Dylan Vann <dylan@dylanvann.com> (https://dylanvann.com)",
   "files": [
     "action.yml",
-    "dist"
+    "dist/index.js"
   ],
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "ncc build src/index.ts --minify --v8-cache",
     "lint": "tsdx lint",
-    "start": "ncc build src/index.ts --watch",
     "test": "tsdx test"
   },
   "prettier": {
@@ -24,10 +23,10 @@
   "devDependencies": {
     "@actions/core": "^1.2.0",
     "@actions/github": "^1.1.0",
-    "@types/jest": "^24.0.19",
+    "@types/jest": "^24.0.22",
     "@zeit/ncc": "^0.20.5",
-    "tsdx": "^0.10.5",
+    "tsdx": "^0.11.0",
     "tslib": "^1.10.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.7.2"
   }
 }
